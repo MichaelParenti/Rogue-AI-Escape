@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rogue AI Escape - Puzzle Challenge</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="game-container">
+    <h1>Rogue AI Escape</h1>
+    <div id="level">Level 1</div>
+    <div id="question">Question goes here...</div>
+    <div id="options">
+      <button class="option" onclick="checkAnswer(0)"></button>
+      <button class="option" onclick="checkAnswer(1)"></button>
+      <button class="option" onclick="checkAnswer(2)"></button>
+      <button class="option" onclick="checkAnswer(3)"></button>
+    </div>
+    <button id="continue-button" disabled>Continue</button>
+    <div id="result"></div>
+    <div id="total-correct">Total Correct: 0</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
